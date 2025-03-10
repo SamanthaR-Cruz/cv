@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/cv.styles.css">
+    <title>Currículum Vitae - Samantha Rodríguez</title>
+    <style>
+        body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+   
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    text-decoration: none;
+    color: #0071e3;
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+.navbar a:hover {
+    color: #005bb5;
+}
+.container {
+    max-width: 800px;
+    margin: 80px auto 40px;
+    background: white;
+    padding: 20px;
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    
+h1 {
+    color: #1d1d1f;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+h3 {
+    color: #6e6e73;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.subtitulo {
+    color: #0071e3;
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    animation: fadeIn 1.7s ease-in-out;
+}
+.highlight {
+    background: #f0f0f5;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.highlight:hover {
+    transform: scale(1.05);
+    background: #e1e1e8;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/index.html">Inicio</a>
+        <a href="/HTML/CV/index.html">Currículum</a>
+    </nav>
+
+    <div class="container" id="inicio">
+        <header>
+            <h1>Samantha Rodríguez</h1>
+            <h3>Email: Samantha_rcrz@hotmail.com</h3>
+            <h3>Teléfono: 271-245-85-40</h3>
+        </header>
+
+        <section id="cv">
+            <h2 class="subtitulo">Perfil Profesional</h2>
+            <p>Profesional en Desarrollo Web con experiencia en HTML, CSS y JavaScript. Apasionado por crear interfaces intuitivas y eficientes.</p>
+        </section>
+
+        <section>
+            <h2 class="subtitulo">Formación Académica</h2>
+            <p><strong>Ingeniería en Sistemas Computacionales</strong> - TecNM Orizaba</p>
+        </section>
+
+        <section>
+            <h2 class="subtitulo">Experiencia Laboral</h2>
+            <p><strong>Desarrollador Web</strong> en Google (2020 - Actualidad)</p>
+            <div class="highlight">
+                <p>Responsable del desarrollo y mantenimiento de sitios web, optimización SEO y mejora de la experiencia del usuario.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
